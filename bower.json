@@ -5,7 +5,7 @@
     "Eric Harms <barefoot.css@gmail.com>"
   ],
   "description": "The defaults module contains global settings used across other modules.",
-  "main": "_core-defaults.scss",
+  "main": "_core.defaults.scss",
   "keywords": [
     "barefoot",
     "oocss",
