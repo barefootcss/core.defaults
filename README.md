@@ -6,7 +6,7 @@ The `defaults` module contains global settings used across other modules.
 
 Install using Bower:
 
-	$ bower --save bare-defaults
+	$ bower install --save bare-defaults
 
 Import into project:
 
