@@ -61,6 +61,16 @@ $bare-bp-l:						1024px !default;
 $bare-bp-xl:					1280px !default;  
 
 // 
+// #page   
+// ========================================================================== */
+
+//
+// Prevent content from overstretching on wide monitors.
+//
+
+$bare-page-max-width: 1920px !default;
+
+// 
 // #scaling   
 // ========================================================================== */
 
