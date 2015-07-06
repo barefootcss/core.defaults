@@ -1,10 +1,10 @@
 {
   "name": "bare-defaults",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "authors": [
     "Eric Harms <barefoot.css@gmail.com>"
   ],
-  "description": "The defaults module contains global settings used across other modules.",
+  "description": "The defaults module contains global defaults used across other modules.",
   "main": "_core.defaults.scss",
   "keywords": [
     "barefoot",
@@ -13,6 +13,12 @@
     "framework"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/barefootcss/core.defaults"
+  "homepage": "https://github.com/barefootcss/core.defaults",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
-  
