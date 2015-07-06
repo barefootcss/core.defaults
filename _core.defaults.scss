@@ -2,18 +2,16 @@
 // #DEFAULTS
 // ========================================================================== 
 
-// 
-// Namespace
-// ========================================================================== 
-
-$bare-ns:						"" !default;
+//
+// @link: https://css-tricks.com/rems-ems/
+//
 
 // 
 // Font-sizes 
 // ========================================================================== 
 
 //
-// Converts into em.
+// Converts to em units.
 //
 
 $bare-fz-xs:					12px !default;
@@ -28,54 +26,44 @@ $bare-fz-xxl:					42px !default;
 // ========================================================================== 
 
 //
-// Converts into em (unitless for root).
+// Converts to em units.
 //
 
-$bare-lh-m:           24px !default;
+$bare-lh-m:           			24px !default;
 
 // 
 // Spacing
 // ========================================================================== 
 
 //
-// Converts into rem.
+// Converts to rem units.
 //
 
-$bare-sp-xs:		 	 		6px !default;
+$bare-sp-xs:			 		 6px !default;
 $bare-sp-s:						12px !default;
 $bare-sp-m:						24px !default;
 $bare-sp-l:						48px !default;
-$bare-sp-xl:					72px !default;
+$bare-sp-xl:					64px !default;
 
 // 
-// #breakpoints   
+// Breakpoints   
 // ========================================================================== */
 
 //
-// Converts into em.
+// Converts to em units.
 //
 
-$bare-bp-s:						568px !default;
-$bare-bp-m:						768px !default;
+$bare-bp-s:						 568px !default;
+$bare-bp-m:						 768px !default;
 $bare-bp-l:						1024px !default;
 $bare-bp-xl:					1280px !default;  
 
 // 
-// #page   
+// Page   
 // ========================================================================== */
 
 //
-// Prevent content from overstretching on wide monitors.
+// Prevent overstretching on wide displays.
 //
 
-$bare-page-max-width: 1920px !default;
-
-// 
-// #scaling   
-// ========================================================================== */
-
-//
-// Amount to decrease text size by on smaller screens.
-//
-
-$bare-text-scale:				1.3 !default;
+$bare-page-max-width: 			1920px !default;
